@@ -1,6 +1,6 @@
 ---
 title: "Security Standards and Frameworks"
-date: 2025-05-31
+date: 2025-05-31 00:00:00 +0000
 categories: [ISM]
 tags: [ISM]
 ---
@@ -32,5 +32,5 @@ For each of three organisation types, I'll state which frameworks would apply an
 |                                | NIS 2         | Applies if considered essential to EU critical food supply infrastructure | Identify security gaps, implement incident reporting procedures, test supply chain risk protocols.     |
 |                                | GDPR          | Applies if handling EU employee or customer personal data                 | Audit personal data uses, document legal basis, enable data subject rights, and ensure secure storage. |
 
-
+## References
 Kirvan, P. (2021). Top 12 IT security frameworks and standards explained. TechTarget SearchSecurity. Available at: https://www.techtarget.com/searchsecurity/tip/IT-security frameworks-and-standards-Choosing-the-right-one (Accessed: 24 May 2025).
