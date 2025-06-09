@@ -1,6 +1,6 @@
 ---
-title: "Security and Risk Management - an intro"
-date: 2025-05-11 00:00:00 +0000
+title: "Starting an e-portfolio"
+date: 2025-01-25 00:00:00 +0000
 categories: [Induction to Computer Science]
 tags: [InductionPG]
 ---
