@@ -1,7 +1,7 @@
 ---
 title: "Portfolio Management"
 date: 2025-06-10 00:00:00 +0000
-categories: []
+categories: [Portfolio]
 tags: [portolio]
 ---
 
