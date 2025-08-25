@@ -7,6 +7,8 @@ tags: [InductionPG]
 
 # Starting an e-portfolio
 
+QUACK QUACK. 
+
 I'm currently transitioning from a maths background to computer science by undertaking an MSc, and during this induction module one thing we've been encouraged to do is set up and maintain an e-portfolio - the idea, I'm told, being that it's a space to record reflections, showcase what we've learnt and build a digital presence while moving through the course.
 
 This is both really new and really worrisome for me. 
