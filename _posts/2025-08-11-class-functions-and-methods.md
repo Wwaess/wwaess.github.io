@@ -1,6 +1,6 @@
 ---
 title: "Class Functions and Methods"
-date: 2025-08-12 00:00:00 +0000
+date: 2025-08-11 00:00:00 +0000
 categories: [OOP]
 tags: [OOP]
 ---
