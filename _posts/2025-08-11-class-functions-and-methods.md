@@ -53,7 +53,7 @@ Let's add a method `translate` to add `dx` and `dy` (changes) to the attributes 
     def translate(self, dx, dy):
         self.x += dx
         self.y += dy
-
+```
 Suppose we wanted to change a _copy_ of a point. We can import `copy` from the library that is... also called `copy` (are you kidding me) to... well, _copy_ the point; we can then modify the copy. 
 ```py
 from copy import copy
