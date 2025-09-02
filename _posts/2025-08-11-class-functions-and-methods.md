@@ -143,3 +143,54 @@ line1.draw()
 line2.draw()
 ```
 
+
+## Equivalence and Identity
+
+If we have two points with the same coordinates, we can use the `==` operator to compare them... only that the default behaviour is to return `True` only if they're the exact same object. So `p1 == p2` for two points with the same coordinates returns `False`. 
+
+We can change this by adding a method to the class `Point` to define what "equals" should mean: 
+
+```py
+%%add_method_to Point
+
+def __eq__(self, other):
+    # Check each coordinate in SELF and OTHER
+    return (self.x == other.x) and (self.y == other.y)
+```
+
+Now testing `p1 == p2` returns `True`! 
+Note that `is` can never be overridden - it is exclusively used to detect whether two objects are identical. What we've defined is `equivalence`. 
+
+
+## Creating a Rectangle
+
+Let's draw rectangles. We won't consider rotations, so they're aligned with the axes. In that case, there are two possibilities of what attributes this `Rectangle` class should have: 
+- Specify the width, height, and one corner's location;
+- Specify two opposing corners. 
+
+Let's try the first one: 
+
+```py 
+class Rectangle:
+    """
+    Represents a rectangle. 
+    It has the attributes WIDTH, HEIGHT and CORNER. 
+    """
+    def __init__(self, width, height, corner):
+        self.width = width
+        self.height = height
+        self.corner = corner
+
+        def __str__(self): ### THIS SEEMS WRONG
+            return f'Rectangle({self.width}, {self.height}, {self.corner})
+```
+
+Now if we define a point, we can build this rectangle:
+```py 
+corner = Point(30, 20)
+box1 = Rectangle(100, 50, corner)
+print(box1)
+```
+```output
+Rectangle(100, 50, Point(30, 20))
+```
