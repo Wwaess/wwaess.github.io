@@ -194,3 +194,59 @@ print(box1)
 ```output
 Rectangle(100, 50, Point(30, 20))
 ```
+
+Now to actually draw it - well, we first need to find the other points, then make the Line objects needed to draw the sides, then actually draw them: 
+```py
+%%add_method_to Rectangle
+
+    def make_points(self): 
+        p1 = self.corner
+        p2 = p1.translated(self.width, 0)
+        p3 = p2.translated(0, self.height)
+        p4 = p3.translated(-self.width, 0)
+        return p1, p2, p3, p4
+    
+    def make_lines(self):
+        p1, p2, p3, p4 = make_points(self) # using the method we just created
+        return Line(p1, p2), Line(p2, p3), Line(p3, p4), Line(p4, p1)
+
+    def draw(self):
+        lines = self.make_lines()
+        for line in lines:
+            line.draw()
+```
+
+Now if we call
+```py
+make_turtle() # to summon the almighty turtle of computer science
+line1.draw() # that x-axis
+line2.draw() # that y-axis
+box1.draw() # ...the box we just specified
+```
+we end up with... a box. 
+
+## Changing Rectangles
+
+We can add a `grow` function:
+```py
+%%add_method_to Rectangle
+
+    def grow(self, dwidth, dheight):
+        self.width += dwidth
+        self.height += dheight
+```
+```py
+box2 = copy(box1)
+box2.grow(60, 40)
+### print(box2)
+box2.draw()
+```
+
+Now, this works fine - but we can't do the same with translation. If we used 
+```py 
+def translate(self, dx, dy): 
+    self.corner.translate(dx, dy)
+``` 
+then this will move BOTH rectangles! That's because the `copy` function is a little odd. 
+`box1 is box2` will return `False`, which is what we expected. But the POINTERS `corner` in each of these boxes _point_ to the same... _Point_ object... ![Here's a diagram straight from the textbook](two_rectangles_same_corner.png):
+
