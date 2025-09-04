@@ -248,5 +248,102 @@ def translate(self, dx, dy):
     self.corner.translate(dx, dy)
 ``` 
 then this will move BOTH rectangles! That's because the `copy` function is a little odd. 
-`box1 is box2` will return `False`, which is what we expected. But the POINTERS `corner` in each of these boxes _point_ to the same... _Point_ object... ![Here's a diagram straight from the textbook](two_rectangles_same_corner.png):
+`box1 is box2` will return `False`, which is what we expected. But the POINTERS `corner` in each of these boxes _point_ to the same... _Point_ object... `![Here's a diagram straight from the textbook](two_rectangles_same_corner.png)`:
 
+To actually force a new copy that points to its own new contained objects, we need to grab `from copy import deepcopy`. 
+
+
+## Polymorphism
+Given that both Lines and Boxes now have a `draw` function, we can invoke those with the same command: 
+
+```py
+shapes = [line1, line2, box3, box4]
+
+make_turtle()
+for shape in shapes: 
+    shape.draw()
+```
+
+This last line, where we've called a `.draw()` for shapes, regardless of whether they're a line or a box, is a feature called **polymorphism** - we invoke the same command, but each Object interprets it however they're defined in their own class description. 
+
+## Debugging
+Recall that we had to `deepcopy` instead of `copy` the rectangles from earlier so that we could actually `translate` them. 
+Ideally we can try to avoid subtle bugs like that if we can do one of two things, generally speaking:
+- avoid sharing objects; or 
+- avoid modifying them. 
+
+The first example, we've just gone through - that's what `deepcopy` took care of. 
+For the second - replace _impure_ functions like `translate` with _pure_ functions like `translated`... apparently. 
+
+
+
+# Inheritance
+
+## Representing Cards
+
+If we want to represent the cards in a standard deck of 52, it's pretty obvious that a Card class should contain the attributes `rank` and `suit`. We *could* encode these as strings, but then it makes it harder to figure out how to compare cards...
+
+Let's instead use integers to encode them. Let Clubs be `0`, Diamonds be `1`, Hearts be `2` and Spades be `3`. Similarly let Jack be `11`, Queen be `12` and King be `13`. Now Ace can either be `1` or `14`, depending on how we want to classify its position among the ranks. 
+
+To represent these encodings, we can actually use a string **list**, which indexes from 0 (meaning we need to add a `None` to the rank list): 
+
+```py
+class Card:
+    """Represents a standard playing card, out of a deck of 52"""
+    suit_names = ['Clubs', 'Diamonds', 'Hearts', 'Spades']
+    rank_names = [None, "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"]
+```
+
+Now, we can call these attributes from the class itself (instead of from an _instance_ of the class) - so to see the list of suit names, we can call `Card.suit_names()`. 
+
+## Card Attributes
+
+To actually generate a card, we'll use the `__init__` function: 
+```py
+%%add_method_to Card
+
+    def __init__(self, suit, rank):
+        self.suit = suit
+        self.rank = rank
+```
+Now we can create a Card object like `queen = Card(1,12)`. 
+
+## Printing Cards
+
+Now to print them: 
+```py
+%%add_method_to Card
+
+    def __str__(self):
+        rank_name = Card.rank_names[self.rank]]
+        suit_name = Card.suit_names[self.suit]]
+        return f'{rank_name} of {suit_name}'
+```
+Now calling `print(queen)` will output `Queen of Diamonds`.
+
+
+## Comparing Cards
+
+
+
+## Decks
+
+
+
+## Printing the Deck
+
+
+
+## Add, Remove, Shuffle and Sort
+
+
+
+## Parents and Children
+
+
+
+## Specialisation
+
+
+
+# Debugging
