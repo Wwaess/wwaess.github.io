@@ -14,4 +14,4 @@ A **software development life cycle (SDLC)** refers to a process used by develop
 
 
 # References
-[1] https://aws.amazon.com/what-is/sdlc/
+`[1] https://aws.amazon.com/what-is/sdlc/`
