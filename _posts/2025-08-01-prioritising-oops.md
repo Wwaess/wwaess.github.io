@@ -1,5 +1,5 @@
 ---
-title: "Portfolio Management"
+title: "OPP Software Reusability"
 date: 2025-08-01 00:00:00 +0000
 categories: [OOP]
 tags: [OOP]
