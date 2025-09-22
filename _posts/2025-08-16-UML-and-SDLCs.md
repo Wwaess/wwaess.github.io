@@ -19,4 +19,4 @@ While these vary from team to team, they can generally be outlined in 6 steps [^
 
 
 # References
-[^1] https://aws.amazon.com/what-is/sdlc/
+[^1]: https://aws.amazon.com/what-is/sdlc/
