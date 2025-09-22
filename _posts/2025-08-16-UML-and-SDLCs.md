@@ -9,9 +9,10 @@ tags: [OOP]
 
 A **software development life cycle (SDLC)** refers to a process used by development teams when designing and building software of a high quality [1]. 
 
+While these vary from team to team, they can generally be outlined in 6 steps [1]: 
 
 
 
 
 # References
-`[1] https://aws.amazon.com/what-is/sdlc/`
+[1] https://aws.amazon.com/what-is/sdlc/
