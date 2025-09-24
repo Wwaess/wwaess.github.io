@@ -11,8 +11,8 @@ tags: [NS]
 |PHASE|INDICATORS|MITIGATION?|TOOLS to use to combat threat?|
 |RECONNAISSANCE|Researched infrastructure + supply chain|Monitor for suspicious domain lookups? **esp. from newly discovered end users**|Threat intelligence platforms to find signs of attacker interests|
 |WEAPONISATION|SUNBURST malware, embedded as a .dll file into Orion software|Stricter code reviews; **static+dynamic code analysis tools (bc. some code might be humanly invisible)**|Static code analysis software to find unusual patterns, used before sending updates|
-|DELIVERY|Trojan virus, delivered as a “security” update|Verify software update integrity|
-|EXPLOITATION|SUNBURST activated after a delay, post-update|Endpoint (end user) protection, behaviour analytics; **check events called if they’re high-risk**|Digital signature tools, to check authenticity|Endpoint Detection + Response (EDR) tools, to spot abnormal activity on endpoints (end users)|
+|DELIVERY|Trojan virus, delivered as a “security” update|Verify software update integrity|Digital signature tools, to check authenticity|
+|EXPLOITATION|SUNBURST activated after a delay, post-update|Endpoint (end user) protection, behaviour analytics; **check events called if they’re high-risk**|Endpoint Detection + Response (EDR) tools, to spot abnormal activity on endpoints (end users)|
 |INSTALLATION|Backdoor created, established persistence|Application scanning; **centralised network updates (e.g. virtualised system as a mini-updater cf. MS)**|Some installer-checking software? Confirm the application being made is legitimate|
 |COMMAND AND CONTROL|Sent data to attackers’ servers, the traffic messages disguised as update checks|Screen outbound network traffic for anomalous requests|Some network screening software? To verify whether the “update checks” are needed/real|
 |ACTIONS ON OBJECTIVES|Data exfiltration, credential theft|Zero-trust models, privileged access controls **(e.g. one session for one user, at a time)**|...|
