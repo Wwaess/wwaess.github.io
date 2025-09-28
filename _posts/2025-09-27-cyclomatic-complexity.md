@@ -19,7 +19,7 @@ where:
 
 If the "program" in question is just a single method (such as in this activity for this portfolio), then P = 1. So for a single subroutine the formula is `M = E - N + 2`. 
 
-```py
+```C#
 public static string IntroducePerson(string name, int age)
 {
     var response = $"Hi! My name is {name} and I'm {age} years old.";
