@@ -1,6 +1,6 @@
 ---
 title: "Stuff about testing code"
-date: 2025-09-27 00:00:00 +0000
+date: 2025-10-01 00:00:00 +0000
 categories: [OOP]
 tags: [OOP]
 ---
