@@ -23,7 +23,7 @@ We can represent this point
 
 We'll define a new class called Point: 
 
-```python
+```py
 class Point:
     """Represents a point in 2D"""
     def __init__(self, x, y):
@@ -37,7 +37,7 @@ The `__init__` method takes the coordinates as parameters and assigns them as at
 The `__str__` method returns a string representation of this `Point`. 
 
 Now we can display a point like so:
-```python
+```py
 start = Point(0, 0)
 print(start)
 ```
@@ -48,7 +48,7 @@ Point(0, 0)
 
 We can add some more functions to change these types (i.e. the variables). We call values *mutable* when they can be changed during program execution; program-defined types are generally *mutable*. 
 Let's add a method `translate` to add `dx` and `dy` (changes) to the attributes `x` and `y`:
-```python
+```py
 %%add_method_to Point
     def translate(self, dx, dy):
         self.x += dx
@@ -85,6 +85,7 @@ This is analogous to Python's inbuilt `sort` and `sorted` functions, whereby the
 end2 = start.translated(0, 150)
 print(end2)
 ```
+
 ```output
 Point(0, 150)
 ```
@@ -107,6 +108,7 @@ Now we can display a `Line` object for an x-axis:
 line1 = Line(start, end1)
 print(Line1)
 ```
+
 ```output
 Line(Point(0, 0), Point(300, 0))
 ```
@@ -118,6 +120,7 @@ At this point, we can _print_ these results out, which is useful for debugging; 
 ```py
 from jupyturtle import make_turtle, jumpto, moveto
 ```
+
 and use these to add a method in the `Line` class:
 ```py
 %%add_method_to Line
@@ -133,6 +136,7 @@ Now if we add a second line to represent the y-axis, we can draw the axes themse
 line2 = Line(start, end2)
 print(line2)
 ```
+
 ```output
 Line(Point(0, 0), (0, 150))
 ```
@@ -191,6 +195,7 @@ corner = Point(30, 20)
 box1 = Rectangle(100, 50, corner)
 print(box1)
 ```
+
 ```output
 Rectangle(100, 50, Point(30, 20))
 ```
@@ -223,6 +228,7 @@ line1.draw() # that x-axis
 line2.draw() # that y-axis
 box1.draw() # ...the box we just specified
 ```
+
 we end up with... a box. 
 
 ## Changing Rectangles
@@ -235,6 +241,7 @@ We can add a `grow` function:
         self.width += dwidth
         self.height += dheight
 ```
+
 ```py
 box2 = copy(box1)
 box2.grow(60, 40)
@@ -247,8 +254,9 @@ Now, this works fine - but we can't do the same with translation. If we used
 def translate(self, dx, dy): 
     self.corner.translate(dx, dy)
 ``` 
+
 then this will move BOTH rectangles! That's because the `copy` function is a little odd. 
-`box1 is box2` will return `False`, which is what we expected. But the POINTERS `corner` in each of these boxes _point_ to the same... _Point_ object... `![Here's a diagram straight from the textbook](two_rectangles_same_corner.png)`:
+`box1 is box2` will return `False`, which is what we expected. But the POINTERS `corner` in each of these boxes _point_ to the same... _Point_ object... `DIAGRAM`:
 
 To actually force a new copy that points to its own new contained objects, we need to grab `from copy import deepcopy`. 
 
@@ -323,27 +331,28 @@ Now calling `print(queen)` will output `Queen of Diamonds`.
 
 
 ## Comparing Cards
-
+text
 
 
 ## Decks
-
+text
 
 
 ## Printing the Deck
-
+text
 
 
 ## Add, Remove, Shuffle and Sort
-
+text
 
 
 ## Parents and Children
-
+text
 
 
 ## Specialisation
+text
 
 
-
-# Debugging
+## Debugging
+text
