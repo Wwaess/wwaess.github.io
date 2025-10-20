@@ -329,30 +329,3 @@ Now to print them:
 ```
 Now calling `print(queen)` will output `Queen of Diamonds`.
 
-
-## Comparing Cards
-text
-
-
-## Decks
-text
-
-
-## Printing the Deck
-text
-
-
-## Add, Remove, Shuffle and Sort
-text
-
-
-## Parents and Children
-text
-
-
-## Specialisation
-text
-
-
-## Debugging
-text
