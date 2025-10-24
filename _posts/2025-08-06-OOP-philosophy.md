@@ -1,3 +1,11 @@
+---
+title: "The OOP Philosophy"
+date: 2025-08-06 00:00:00 +0000
+categories: [OOP]
+tags: [OOP]
+---
+
+For **UNIT 1**
 # Introduction to Python (again) and the Object-Oriented Programming Philosophy
 
 Some coding languages like C and Java are _procedural programming languages_. That is, you build a bunch of in-house functions, and then call these functions in the main() body of the program. There are limits to this:

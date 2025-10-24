@@ -1,10 +1,3 @@
----
-title: "Polymorphism for a Humanoid Robot"
-date: 2025-08-30 00:00:00 +0000
-categories: [OOP]
-tags: [OOP]
----
-
 For **UNIT 5**
 # To clarify - What IS Polymorphism?
 

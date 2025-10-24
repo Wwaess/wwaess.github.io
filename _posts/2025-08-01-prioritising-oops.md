@@ -5,6 +5,7 @@ categories: [OOP]
 tags: [OOP]
 ---
 
+For **DISCUSSION 1**
 # Prioritising Software Reusability Factors
 
 Unlike procedural programming, which relies on writing methods that perform operations on given data inputs, object-oriented programming (OOP) focuses on interactions between collections of data and methods called objects (W3Schools, n.d.). To this extent, the aim for OOP is to keep repetition of code to a minimum, which generally makes software more efficient due to there being less to compute.

@@ -5,6 +5,7 @@ categories: [OOP]
 tags: [OOP]
 ---
 
+For **UNIT 2**
 # Class Functions and Methods
 
 Chapters 16 and 17 of *Think Python* by Allen Downey explores two sets of key concepts. Namely, Chapter 16 explores how we can use classes to represent geometric objects (using the `jupyturtle` module in Python), and Chapter 17 introduces *inheritance*, the feature "most often associated" with OOP, where new classes are defined using other existing classes. 
@@ -329,3 +330,8 @@ Now to print them:
 ```
 Now calling `print(queen)` will output `Queen of Diamonds`.
 
+
+
+# References
+
+Downey, A.B. (2012) *Think Python: How to Think Like a Computer Scientist*. 2nd edn. Sebastopol, CA: O’Reilly Media.

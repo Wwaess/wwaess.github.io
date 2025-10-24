@@ -1,4 +1,4 @@
-INITIAL POST
+For **DISCUSSION 1**
 
 __Initial Post: Prioritising Software Reusability Factors__
 
