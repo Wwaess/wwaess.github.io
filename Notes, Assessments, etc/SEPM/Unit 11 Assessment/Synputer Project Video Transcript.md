@@ -1,3 +1,6 @@
+https://github.com/Wwaess/wwaess.github.io/tree/main/Notes%2C%20Assessments%2C%20etc/SEPM/Unit%2011%20Assessment for this transcript and the video presentation. 
+(There may be a delay in the video upload due to GitHub filesize problems.)
+
 Synputer Progress Report
 
 Hello. This presentation is a progress update on how far along development we are for the new Synputer, which should include responses to EDC's concerns regarding their feedback on the project. I'll briefly recap the original plan and show its current status, where EDC's specifications are and aren't met with this plan and with Colin Syn's February 1984 redesigned plan, and then walk through the revised timeline, costs and key trade-offs needed to keep the project as viable as possible. 
