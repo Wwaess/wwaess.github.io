@@ -1,5 +1,6 @@
 https://github.com/Wwaess/wwaess.github.io/tree/main/Notes%2C%20Assessments%2C%20etc/SEPM/Unit%2011%20Assessment for this transcript and the video presentation. 
-(There may be a delay in the video upload due to GitHub filesize problems.)
+
+To download the mp4 file to view, click on the mp4 file, then click on "View Raw" to download the video recording.
 
 Synputer Progress Report
 
