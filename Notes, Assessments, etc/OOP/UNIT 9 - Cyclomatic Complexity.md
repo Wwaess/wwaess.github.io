@@ -1,7 +1,7 @@
 FOR **UNIT 9**
 # What is Cyclomatic Complexity?
 
-Cyclomatic complexity refers to a metric developed by Thomas McCabe to measure how "complex" a program is, by counting how many decision it makes.[^1] It's slightly more involved than that, as it bascially converts the program into a directed graph called a **control flow graph** and then defines the metric as 
+Cyclomatic complexity refers to a metric developed by Thomas McCabe to measure how "complex" a program is, by counting how many decisions it makes.[^1] It's slightly more involved than that, as it bascially converts the program into a directed graph called a **control flow graph** and then defines the metric as 
 
 M = E - N + 2P
 
@@ -13,7 +13,7 @@ where:
 
 If the "program" in question is just a single method (such as in this activity for this portfolio), then P = 1. So for a single subroutine the formula is `M = E - N + 2`. 
 
-```C#
+```c# 
 public static string IntroducePerson(string name, int age)
 {
     var response = $"Hi! My name is {name} and I'm {age} years old.";

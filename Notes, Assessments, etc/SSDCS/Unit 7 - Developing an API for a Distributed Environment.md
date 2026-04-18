@@ -1,0 +1,61 @@
+For **UNIT 7**
+
+# Question 1
+```
+Run the API.py code. Take a screenshot of the terminal output. What command did you use to compile and run the code?
+```
+
+Running it — after installing `flask` and `flask-restful` via pip commands — yielded the following terminal output: 
+
+```bat
+ * Serving Flask app 'API'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 332-554-483
+127.0.0.1 - - [11/Mar/2026 20:50:31] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [11/Mar/2026 20:50:31] "GET /favicon.ico HTTP/1.1" 404 -
+```
+
+The local webpage "was not found on the server". 
+
+# Question 2 
+```
+Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Ann
+
+What happens when this command is run, and why?
+```
+
+For the record, I'm on Windows and am having to run this via VS Code, so the only way I could feasibly run this was by directly searching for that webpage while running `API.py`. 
+
+It gave this result:
+```json
+{
+    "name": "Ann",
+    "age": 32,
+    "occupation": "Doctor"
+}
+```
+
+# Question 3
+```
+Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Adam
+
+What happens when this command is run, and why?
+```
+
+Unlike before, this was outputted:
+```json
+"User not found"
+```
+
+
+# Question 4
+```
+What capability is achieved by the flask library?
+```
+
+
