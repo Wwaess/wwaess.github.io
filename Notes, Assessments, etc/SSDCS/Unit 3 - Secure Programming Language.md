@@ -20,7 +20,9 @@ Cifuentes and Bierman (2019) suggest that one can split a programming language v
 With these in mind: 
 ## Could Python be classed as a secure language?
 ### Buffer errors?
-Python is generally considered **memory-safe** (Prossimo, n.d.), meaning it doesn't 
+Python is generally considered **memory-safe** (Prossimo, n.d.), meaning it doesn't give the programmer direct access to low-level memory management like pointers. Classic issues like buffer overflows are largely prevented by design, removing an entire class of vulnerabilities that would be found in e.g. C or C++. 
+
+That said, it doesn't make Python _completely_ secure - it reduces buffer risks, but Python programs are still susceptible to injection errors if inputs are not sanitised. 
 
 
 
