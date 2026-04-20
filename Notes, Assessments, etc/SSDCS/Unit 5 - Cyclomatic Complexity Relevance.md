@@ -16,8 +16,7 @@ where:
 
 In practice, this $M$ is representative of the amount of independent execution paths the code has to go through to run successfully - the higher the complexity, the more involved the code is, and the greater the risk of poor maintenance. 
 
-In theory, having this as a metric is useful for the testing phase of software development: with a concrete number of independent path executions calculated, each path can be checked at least once, ensuring nothing's been overlooked. Furthermore, if the
-
+In theory, having this as a metric is useful for the testing phase of software development: with a concrete number of independent path executions calculated, each path can be checked at least once, ensuring nothing's been overlooked. Furthermore, if the cyclomatic complexity is too high, it can serve as a warning sign that the code may be too convoluted, making it harder to test, debug, and maintain effectively.
 
 # References
 [^1]: https://www.geeksforgeeks.org/dsa/cyclomatic-complexity/
