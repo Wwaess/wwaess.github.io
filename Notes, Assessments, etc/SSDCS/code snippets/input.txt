@@ -1,0 +1,53 @@
+Wheatley: よし、それでいいだろう。そのままだぞ。
+Wheatley: Okay, you know what? That's close enough. Just hold tight.
+
+録音メッセージ: すべてのリアクターコア安全装置は機能停止しました。リアクターコアのメルトダウンに備えてください。
+Announcer: All reactor core safeguards are now non-functional. Please prepare for reactor core meltdown.
+
+Wheatley: ああもう、これだけは言いたくなかったんだけどな... オレ、今大ピンチなんだよね。
+Wheatley: Alright, I wasn't going to mention this to you, but I am in PRETTY HOT WATER here.
+
+Wheatley: 予備電源が底をついて、センター全体で被験者を起こせなくなっちまった。
+Wheatley: The reserve power ran out, so of course the whole relaxation center stops waking up the bloody test subjects.
+
+Wheatley: そんなことオレに知らせるやつはいない。何の必要があるんだ？
+Wheatley: And of course nobody tells ME anything. Noooo. Why should they tell me anything?
+
+Wheatley: オレは 1 万人も被験者を管理してるんだぜ。なんでそいつらの生命機能をいちいち知らされなくちゃいけねえんだ!?
+Wheatley: Why should I be kept informed about the life functions of the ten thousand bloody test subjects I'm supposed to be in charge of?
+
+Wheatley: それで、ここに経営者が来てみろよ! 誰が大量の干乾びた死体の責任を取らされると思ってるんだ!
+Wheatley: And whose fault do you think it's going to be when the management comes down here and finds ten thousand flipping vegetables?
+
+Wheatley: ちょ、気が散るじゃないか!
+Wheatley: Okay, I've just gotta concentrate!
+
+Wheatley: よし、ちょっと待て...
+Wheatley: Alright, just a second...
+
+Wheatley: 待て! こいつはちょっと厄介だ!
+Wheatley: Hold on! This is a bit tricky!
+
+Wheatley: クソッ、なんとかここを通さないと...
+Wheatley: Agh, just... I just gotta get it through here...
+
+Wheatley: ギリギリなんとか... なあ、ここ通れそうか? 幅足りてると思うか?
+Wheatley: Oi, it's close... can you see? Am I gonna make it through? Have I got enough space?
+
+Wheatley: ぐわっ、ほら見ろ、ぶつかっちまったじゃねえか...
+Wheatley: Aggh, see, now I hit that one, I hit that one...
+
+Wheatley: そっちはどうだ? 持ちこたえてるか?
+Wheatley: How you doing down there? You still holding on?
+
+Wheatley: いいか、口裏を合わせておく必要がある。万が一誰かに聞かれたら... まあ誰も聞きゃあしないとは思うが、この前確認したときはみんな生きてましたって言うんだ。わかったな!?
+Wheatley: Okay, listen, we should get our stories straight, alright? If anyone asks -- and no one's gonna ask, don't worry -- but if anyone asks, tell them as far as you know, the last time you checked, everyone looked pretty much alive. Alright? Not dead.
+
+Wheatley: よし、もう少しだぞ。この壁の向こうには古いテスト走路がある。脱出するのに必要な機材がそこにあるんだ。これはドッキングステーションだと思うが。準備はいいか?
+Wheatley: Okay, almost there. On the other side of that wall is one of the old testing tracks. There's a piece of equipment in there we're gonna need to get out of here. I think this is a docking station. Get ready...
+
+Wheatley: いい知らせだ。あれはドッキングステーションじゃない。ひとつ謎が解けたな。この壁のシステムをオーバーライドしてみる。厄介な作業だからちょっと待ってろ!
+Wheatley: Good news: that is NOT a docking station. So there's one mystery solved. I'm going to attempt a manual override on this wall. Could get a bit technical! Hold on!
+
+Wheatley: もうちょっとだ! いいか、お前は穴を開ける銃を探すんだ。弾丸を込める銃じゃないぞ。用意はいいな!
+Wheatley: Almost there! Remember: you're looking for a gun that makes holes. Not bullet holes, but-- well, you'll figure it out. Really do hold on this time!
