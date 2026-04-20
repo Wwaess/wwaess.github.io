@@ -58,4 +58,4 @@ Unlike before, this was outputted:
 What capability is achieved by the flask library?
 ```
 
-
+The idea behind Flask is to allow you to turn a Python script into a web server that can send back responses to HTTP requests. Instead of running locally and printing to a console on your computer, you can now have other programs (or browsers) talk to it over the web - though in this case, as long as "over the web" means "on the same network as the host for the program". 
