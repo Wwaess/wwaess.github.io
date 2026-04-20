@@ -1,6 +1,6 @@
 For **UNIT 8**
 
-I've chosen an XOR cipher for its balance between simplicity of implementation and demonstrating real cryptography principles. The code can be seen [here](text_encrypter.py). One should navigate to the directory that contains the code before running it via Python. 
+I've chosen an XOR cipher for its balance between simplicity of implementation and demonstrating real cryptography principles. The code can be seen [here](text_encrypter.py) (`text_encrypter.py`, in `SSDCS\code snippets`). One should navigate to the directory that contains the code before running it via Python. 
 
 In the console, it takes in the example text "XOR prcedure" and runs it through with the password "thisisabadencryptionkey" to encrypt it using XOR. 
 
