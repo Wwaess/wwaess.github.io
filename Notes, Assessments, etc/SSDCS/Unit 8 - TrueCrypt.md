@@ -53,4 +53,5 @@ https://xilinx.github.io/Vitis_Libraries/security/2019.2/guide_L1/internals/xts.
 
 No Complexity (2026) *Saltzer and Schroeder's design principles*. Available at: https://nocomplexity.com/documents/securityarchitecture/architecture/saltzer_designprinciples.html
 OSTIF (2016) *The VeraCrypt Audit Results*. Available at: https://ostif.org/the-veracrypt-audit-results/
+
 Tan, C., Zhang, L., Bao, L. (2020) *A deep exploration of BitLocker encryption and security analysis*, IEEE. Available at: https://ieeexplore-ieee-org.uniessexlib.idm.oclc.org/document/9295908/

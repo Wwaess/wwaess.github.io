@@ -1,0 +1,20 @@
+---
+title: "Cryptography Programming"
+date: 2026-03-23 00:00:00 +0000
+categories: [SSDCS]
+tags: [SSDCS]
+---
+
+For **UNIT 8**
+
+I've chosen an XOR cipher for its balance between simplicity of implementation and demonstrating real cryptography principles. The code can be seen [here](<../Notes, Assessments, etc/SSDCS/code snippets/text_encrypter.py>). One should navigate to the directory that contains the code before running it via Python. 
+
+In the console, it takes in the example text "XOR prcedure" and runs it through with the password "thisisabadencryptionkey" to encrypt it using XOR. 
+
+As for encoding files, there is some commented lines in the `__main__` snippet at the bottom of the code. When uncommented, it checks for a file called `input.txt` in the directory that the code is being run in, and encodes it the same way as with the console example, writing an output file called `encrypted.txt`. It also decodes this file in a similar vein and outputs `decrypted.txt`, which ideally should contain the same text as the original `input.txt`. 
+
+The XOR cipher operates on the binary level and introduces the concept of combining plaintext with a key, which illustrates a core idea in cryptography while being straightforward to implement. To test for robustness, I used an input.txt containing both Latin characters and non-Latin characters. The sample text was taken from an extract from _Portal 2_ (Valve Corporation, 2011) and its corresponding Japanese translation. This confirms that the implementation is working with Unicode data and doesn't fall apart upon moving outside basic ASCII text, since the program operates at a byte level instead of just relying on character-specific encoding rules (such as with Caesar ciphers). (These files are in the same location as the code.)
+
+While this is a form of encryption, it's not sufficiently secure for real-world use and so would likely not meet GDPR requirements for data protection as it stands. XOR ciphers are dependent on a good key, and a predicable key such as the one deliberately chosen here would be vulnerable to attacks. As long as the key is easily obtained, the encrypted text is simply "behind an unlockable door", so to speak. 
+
+To add, this implementation should also have more important security measures like secure key management, tampering protection or resistance to modern cryptographic attacks; GDPR regulations require more technical measures like these to protect personal data, involving more well-established and securer encryption standards like AES. So while XOR encryption is suitable for educational purposes, it wouldn't be sufficient for sensitive or personal data protection per the GDPR standards. 
